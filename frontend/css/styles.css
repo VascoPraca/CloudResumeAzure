@@ -1,0 +1,60 @@
+/* styles.css */
+body {
+    background-color: #300030;
+    color: #008000;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 16px;
+    line-height: 0.3;
+    padding: 20px;
+    margin: 0;
+}
+
+.terminal {
+    border: 2px solid #333;
+    border-radius: 5px; /* Rounder corners */
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5); /* last value set to 0.5 for transparency */
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.title-bar {
+    background-color: #333;
+    padding: 5px 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+}
+
+.buttons span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    cursor: pointer;
+    margin-right: 5px;
+    color: #fff;
+}
+
+.title {
+    color: #fff;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.content {
+    padding: 10px;
+}
+
+.footer {
+    color: #ff0000;
+    margin-top: 10px;
+}
